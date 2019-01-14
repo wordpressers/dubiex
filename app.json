@@ -12,8 +12,7 @@
     "console": "truffle console",
     "build": "scripts/addresses-mainnet.json && addresses-rinkeby.json",
     "prepack": "npm run build"
-    "start": "npm run test && npx truffle develop",
-    "start": "react-scripts start",
+    "start": "npm run test && npx truffle develop && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
