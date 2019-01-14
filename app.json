@@ -2,7 +2,11 @@
   "name": "dubiex",
   "version": "1.0.0",
   "description": "Fully decentralized, free, ethereum based exchange",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
+    "start": "npm run test",
     "test": "npx truffle develop"
   },
   "dependencies": {
